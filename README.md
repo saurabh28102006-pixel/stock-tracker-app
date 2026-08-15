@@ -6,8 +6,14 @@
   <h1>📈 TradePulse</h1>
   <p><strong>Next-Gen Real-Time Stock Tracker, Paper Trading Platform & AI Financial Intelligence Suite</strong></p>
 
+  <p>
+    <a href="https://tradepulse-stock-tracker.netlify.app/" target="_blank">
+      <img src="https://img.shields.io/badge/🌐_Live_Demo-tradepulse--stock--tracker.netlify.app-00AD9F?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo" />
+    </a>
+  </p>
+
   <div>
-    <img src="https://img.shields.io/badge/-Next.js_15-black?style=for-the-badge&logoColor=white&logo=next.js&color=000000"/>
+    <img src="https://img.shields.io/badge/-Next.js_16-black?style=for-the-badge&logoColor=white&logo=next.js&color=000000"/>
     <img src="https://img.shields.io/badge/-React_19-black?style=for-the-badge&logoColor=61DAFB&logo=react&color=20232A"/>
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6"/>
     <img src="https://img.shields.io/badge/-TailwindCSS_4-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4"/>
@@ -19,6 +25,11 @@
 </div>
 
 <br />
+
+---
+
+## 🔗 Live Application
+👉 **Website URL**: **[https://tradepulse-stock-tracker.netlify.app/](https://tradepulse-stock-tracker.netlify.app/)**
 
 ---
 
