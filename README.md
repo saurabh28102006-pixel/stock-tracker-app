@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="public/assets/images/dashboard-preview.png" alt="TradePulse Banner" width="100%" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
+  <img src="./public/assets/images/tradepulse-dashboard-2026.png" alt="TradePulse Banner" width="100%" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
   <br /><br />
 
   <h1>📈 TradePulse</h1>
