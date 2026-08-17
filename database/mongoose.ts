@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const MONGODB_URI =
   process.env.MONGODB_URI ||
-  'mongodb+srv://saurabh28102006_db_user:NPw51CHMGxE5j1hW@cluster0.bsoubcb.mongodb.net/signalist?retryWrites=true&w=majority&appName=Cluster0';
+  'mongodb+srv://novatext43_db_user:6FcoHNfIXxfJOhuW@cluster0.tsl6pvn.mongodb.net/tradepulse?retryWrites=true&w=majority&appName=Cluster0';
 
 declare global {
   var mongooseCache: {
