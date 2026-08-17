@@ -6,9 +6,16 @@ import {redirect} from "next/navigation";
 import AICopilotButton from "@/components/AICopilotButton";
 
 const Layout = async ({ children }: { children : React.ReactNode }) => {
-    const session = await auth.api.getSession({ headers: await headers() });
+    let session = null;
+    try {
+        session = await auth.api.getSession({ headers: await headers() });
+    } catch (e) {
+        console.error('Session retrieval error in root layout:', e);
+    }
 
-    if(!session?.user) redirect('/sign-in');
+    if(!session?.user) {
+        redirect('/sign-in');
+    }
 
     const user = {
         id: session.user.id,
