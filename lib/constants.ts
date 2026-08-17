@@ -139,6 +139,21 @@ export const MARKET_DATA_WIDGET_CONFIG = {
     backgroundColor: '#0F0F0F',
     symbolsGroups: [
         {
+            name: 'Indian Markets (NSE)',
+            symbols: [
+                { name: 'BSE:SENSEX', displayName: 'BSE Sensex' },
+                { name: 'NSE:NIFTY', displayName: 'Nifty 50' },
+                { name: 'NSE:RELIANCE', displayName: 'Reliance Industries' },
+                { name: 'NSE:TCS', displayName: 'TCS' },
+                { name: 'NSE:HDFCBANK', displayName: 'HDFC Bank' },
+                { name: 'NSE:INFY', displayName: 'Infosys' },
+                { name: 'NSE:TATAMOTORS', displayName: 'Tata Motors' },
+                { name: 'NSE:ICICIBANK', displayName: 'ICICI Bank' },
+                { name: 'NSE:SBIN', displayName: 'State Bank of India' },
+                { name: 'NSE:ITC', displayName: 'ITC Limited' },
+            ],
+        },
+        {
             name: 'Financial',
             symbols: [
                 { name: 'NYSE:JPM', displayName: 'JPMorgan Chase' },
@@ -155,7 +170,7 @@ export const MARKET_DATA_WIDGET_CONFIG = {
                 { name: 'NASDAQ:AAPL', displayName: 'Apple' },
                 { name: 'NASDAQ:GOOGL', displayName: 'Alphabet' },
                 { name: 'NASDAQ:MSFT', displayName: 'Microsoft' },
-                { name: 'NASDAQ:FB', displayName: 'Meta Platforms' },
+                { name: 'NASDAQ:NVDA', displayName: 'NVIDIA' },
                 { name: 'NYSE:ORCL', displayName: 'Oracle Corp' },
                 { name: 'NASDAQ:INTC', displayName: 'Intel Corp' },
             ],
@@ -266,6 +281,18 @@ export const COMPANY_FINANCIALS_WIDGET_CONFIG = (symbol: string) => ({
 });
 
 export const POPULAR_STOCK_SYMBOLS = [
+    // Top Indian Stocks (NSE / BSE)
+    'NSE:RELIANCE',
+    'NSE:TCS',
+    'NSE:HDFCBANK',
+    'NSE:INFY',
+    'NSE:TATAMOTORS',
+    'NSE:ICICIBANK',
+    'NSE:SBIN',
+    'NSE:ITC',
+    'NSE:NIFTY',
+    'BSE:SENSEX',
+
     // Tech Giants (the big technology companies)
     'AAPL',
     'MSFT',

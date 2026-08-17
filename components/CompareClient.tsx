@@ -8,6 +8,9 @@ import TradeModal from '@/components/TradeModal';
 import Link from 'next/link';
 
 const POPULAR_MATCHUPS = [
+  { s1: 'NSE:RELIANCE', s2: 'NSE:TCS', label: '🇮🇳 Indian Blue Chips (Reliance vs TCS)' },
+  { s1: 'NSE:HDFCBANK', s2: 'NSE:ICICIBANK', label: '🇮🇳 Banking Powerhouses (HDFC vs ICICI)' },
+  { s1: 'NSE:TATAMOTORS', s2: 'TSLA', label: '🚗 EV Mobility (Tata Motors vs Tesla)' },
   { s1: 'NVDA', s2: 'AMD', label: 'AI Chips (NVDA vs AMD)' },
   { s1: 'AAPL', s2: 'MSFT', label: 'Tech Titans (AAPL vs MSFT)' },
   { s1: 'TSLA', s2: 'RIVN', label: 'EV Innovators (TSLA vs RIVN)' },
